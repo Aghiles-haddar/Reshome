@@ -54,3 +54,9 @@ body{
     margin: 0;
     background-color: var(--secondary-color);
 }
+
+.test{
+    background: url('../CSS/Assets/backgroundAnnouncement.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
