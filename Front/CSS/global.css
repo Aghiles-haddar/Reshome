@@ -1,0 +1,56 @@
+/*
+Voilà les couleurs du site sous forme de variable
+Pour pouvoir les utiliser il suffit de faire comme ceci : 
+background-color: var(--primary-color)
+*/
+:root{
+    --primary-color : #DBA473;
+    --secondary-color : #1C232C;
+    --accent-color : #59413F;
+    --primary-font : 'Poppins';
+    --secondary-font : 'saonara';
+    --accent-font: 'muellerhoff';
+}
+
+@font-face {
+    font-family: 'saonara';  /* Remplacez "NomDeLaPolice" par le nom que vous souhaitez donner à la police */
+    src: url(./fonts/MADE_SAONARA_PERSONAL_USE/MADE\ SAONARA\ PERSONAL\ USE.otf);  /* Indiquez le chemin vers le fichier .ttf ou .otf de la police */
+}
+@font-face {
+    font-family: 'muellerhoff';  /* Remplacez "NomDeLaPolice" par le nom que vous souhaitez donner à la police */
+    src: url(./fonts/Great_VibesHerr_Von_MuellerhoffKarlaOpen_SansPoppins/Herr_Von_Muellerhoff/HerrVonMuellerhoff-Regular.ttf);  /* Indiquez le chemin vers le fichier .ttf ou .otf de la police */
+}
+
+h1{
+    font-family: 'saonara';
+    font-size: 9.625rem;
+}
+
+h2{
+    font-family: 'saonara';
+    font-size: 5.5rem;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+}
+
+h4, .info-right>li, .info-left>li{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+li{
+    list-style: none;
+}
+
+.container-index{
+    margin: 0 86px;
+}
+
+body{
+    z-index: -3;
+    margin: 0;
+    background-color: var(--secondary-color);
+}
