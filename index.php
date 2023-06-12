@@ -1,5 +1,8 @@
 <?php
 
- var_dump('salut vos meres');
+require('app/config/database.php');
+
+var_dump($bdd);
+
 
 ?>
