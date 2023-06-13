@@ -1,0 +1,17 @@
+{
+    "name": "hadda/reshome",
+    "authors": [
+        {
+            "name": "Aghiles Haddar",
+            "email": "haddaraghiles5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hadda\\Reshome\\": "routes/",
+            "App\\": "app/"
+        }
+    },
+    "require": {}
+}
+
