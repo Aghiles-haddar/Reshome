@@ -9,7 +9,8 @@
     "autoload": {
         "psr-4": {
             "Hadda\\Reshome\\": "routes/",
-            "App\\": "app/"
+            "App\\": "app/",
+            "Database\\": "database/"
         }
     },
     "require": {}
