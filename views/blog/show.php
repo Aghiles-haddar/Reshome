@@ -1,0 +1,1 @@
+<h1 class="dwain" >Post n* <?= $params['id'] ?> </h1>
